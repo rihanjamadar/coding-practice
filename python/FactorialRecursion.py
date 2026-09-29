@@ -5,7 +5,7 @@ def fact(n):
     return n * fact(n - 1)
 
 
-n = long(input("Enter a number: "))
+n = long (input("Enter a number: "))
 
 if n >= 0:
     print("Factorial:", fact(n))
